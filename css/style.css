@@ -180,7 +180,8 @@ li {
   }
 }
 
-.personajes__container {
+.personajes__container,
+.arcos__container {
   max-width: 1200px;
   display: flex;
   flex-direction: column;
@@ -193,7 +194,6 @@ li {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 8px;
   width: 100%;
-  max-width: 1200px;
   margin: 0 auto;
   margin-top: 2dvh;
 }
@@ -282,7 +282,7 @@ li {
   padding: 8 16px;
   width: 100%;
 
-  .btn-more__info {
+  .btn-more {
     width: 200px;
   }
 }
@@ -307,15 +307,23 @@ li {
     }
   }
 
+  .btn {
+    font-size: 0.9rem;
+  }
+
   .card {
     .card__btn {
-      width: 60%;
+      width: 70%;
     }
   }
 
   .card-personaje {
     grid-template-columns: auto;
     grid-template-rows: 1fr;
+
+    .card__descripcion {
+      font-size: 1rem;
+    }
   }
 
   .more__info {
