@@ -22,6 +22,7 @@ $personaje.innerHTML = `
         <div class="informacion">
             <h2 class="card-title">Informacion</h2>
             <p><span class="atributo">Nombre: </span> ${nombre}</p>
+            <p><span class="atributo">Fruta: </span> ${fruta}</p>
             <p><span class="atributo">Epiteto: </span> ${epiteto}</p>
             <p><span class="atributo">Recompensa: </span> ${recompensa}</p>
             <p><span class="atributo">Fecha de Nacimiento: </span> ${nacimiento}</p>

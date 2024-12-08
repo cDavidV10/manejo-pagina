@@ -2,7 +2,7 @@ const $header = document.querySelector(".header")
 const $toggleBtn = document.querySelector(".toggle__btn")
 const $toggleBtnIcon = document.querySelector(".toggle__btn i")
 const $dropMenu = document.querySelector(".drop__menu")
-const $a = document.querySelectorAll(".enlace")
+const $a = document.querySelectorAll(".enlace-interno")
 const $btnPersonajes = document.querySelector(".btn-more__info");
 
 
