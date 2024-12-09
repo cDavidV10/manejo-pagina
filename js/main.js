@@ -3,7 +3,7 @@ const $toggleBtn = document.querySelector(".toggle__btn")
 const $toggleBtnIcon = document.querySelector(".toggle__btn i")
 const $dropMenu = document.querySelector(".drop__menu")
 const $a = document.querySelectorAll(".enlace-interno")
-const $btnPersonajes = document.querySelector(".btn-more__info");
+const $btnPersonajes = document.querySelectorAll(".btn-more__info");
 
 
 $a.forEach(a => {
@@ -49,22 +49,41 @@ window.addEventListener("resize", () => {
 
 document.addEventListener("scroll", () => {
     if (window.scrollY > 1) {
-      $header.classList.add("scrolled");
+      $header.classList.add("scrolled-visible");
     } else {
-      $header.classList.remove("scrolled");
+      $header.classList.remove("scrolled-visible");
     }
 });
 
-$btnPersonajes.addEventListener("click", () =>{
-    const btnId = $btnPersonajes.getAttribute("data-id");
+// $btnPersonajes.addEventListener("click", () =>{
+//     const btnId = $btnPersonajes.getAttribute("data-id");
     
-    if(btnId == 1){
+//     if(btnId == 1){
 
-        window.location.href = "personajes.html"
-    }
+//         window.location.href = "personajes.html"
+//     }
 
-    if(btnId == 2){
-        window.location.href = "index.html"
-    }
-})
+//     if(btnId == 2){
+//         window.location.href = "index.html"
+//     }
+// })
   
+
+$btnPersonajes.forEach(btn =>{
+    btn.addEventListener("click", () =>{
+            const btnId = btn.getAttribute("data-id");
+            
+            if(btnId == 1){
+        
+                window.location.href = "personajes.html"
+            }
+        
+            if(btnId == 2){
+                window.location.href = "arcos.html"
+            }
+
+            if(btnId == 3){
+                window.location.href = "index.html"
+            }
+        })
+})

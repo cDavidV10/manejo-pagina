@@ -13,7 +13,7 @@
     />
     <link rel="stylesheet" href="css/style.css" />
     <script defer src="js/main.js"></script>
-    <script defer type="module" src="js/personajes.js"></script>
+    <script defer type="module" src="js/arcos.js"></script>
   </head>
   <body>
     <header class="header header-personajes">
@@ -53,36 +53,27 @@
       </div>
     </header>
     <main>
-      <section class="personajes__container">
+      <section class="arcos__container contenedor__arcos">
         <section class="more__info">
-          <h2>Personajes</h2>
-          <button
-            data-id="3"
-            class="btn btn-more btn-more__info"
-            id="personajes-btn"
-          >
+          <h2>Arcos</h2>
+          <button data-id="3" class="btn btn-more btn-more__info">
             Regresar
           </button>
         </section>
-        <article class="contenedor personajes" id="personajes"></article>
       </section>
     </main>
-
-    <template id="template">
-      <article class="card">
-        <div class="img__container">
-          <img class="card__img" />
-        </div>
-        <div class="info__container">
-          <h3 class="nombre"></h3>
-          <p class="fruta"></p>
-          <p class="rol"></p>
-          <p class="edad"></p>
-          <p class="recompensa"></p>
-          <p class="estado"></p>
-        </div>
-        <button class="btn card__btn">Más Información</button>
-      </article>
-    </template>
   </body>
+
+  <template id="template-arco">
+    <article class="card card-arcos numero">
+      <div class="img__container">
+        <img class="card__img" />
+      </div>
+      <div class="info__container">
+        <h3 class="saga"></h3>
+        <p class="manga"></p>
+        <p class="anime"></p>
+      </div>
+    </article>
+  </template>
 </html>

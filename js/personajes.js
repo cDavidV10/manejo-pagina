@@ -7,7 +7,7 @@ const morePersonajes = personajes.otros;
 const $template = document.getElementById("template");
 const $section = document.querySelector(".personajes");
 
-const datos = (dato) =>{
+const card = (dato) =>{
     
     const { imagen, nombre, fruta, rol, edad, recompensa, estado, altura, epiteto, nacimiento, origen, aparicion, tipoFruta, descripcion, descripcion2 } = dato;
     const cloneTemplate = document.importNode($template.content, true);
@@ -32,12 +32,12 @@ const datos = (dato) =>{
 
 mugiwaras.forEach(dato => {
     
-    datos(dato)
+    card(dato)
 });
 
 if (window.location.pathname.endsWith("personajes.html")){
     morePersonajes.forEach(dato => {
-        datos(dato)
+        card(dato)
     });    
 }
 

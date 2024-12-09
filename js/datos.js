@@ -2,7 +2,7 @@ export const data = {
     personajes : {
         mugiwaras: [
             {
-                imagen: "./assets/luffy.webp",
+                imagen: "./assets/personajes/luffy.webp",
                 nombre: 'Monkey D. Luffy',
                 fruta: 'Gomu-Gomu no mi',
                 rol: 'Capitan',
@@ -19,7 +19,7 @@ export const data = {
                 descripcion2: 'Luffy pertenece a una familia plagada de personajes conocidos mundialmente: es hijo del líder del Ejército Revolucionario y criminal más buscado del mundo, Monkey D. Dragon; nieto del héroe de la Marina y anterior vicealmirante Monkey D. Garp, hermano adoptivo del conocido pirata Ace "Puño de Fuego" ―antiguo comandante de la segunda división de los Piratas de Barbablanca―, así como del oficial general del Ejército Revolucionario, Sabo. Su objetivo en la vida es convertirse en el próximo Rey de los Piratas, encontrar el legendario tesoro conocido como el "One Piece", que perteneció al anterior Rey de los Piratas Gol D. Roger, y conquistar el Nuevo Mundo liderando una tripulación formada por grandes piratas.'
             },
             {
-                imagen: "./assets/zoro.webp",
+                imagen: "./assets/personajes/zoro.webp",
                 nombre: 'Roronoa Zoro',
                 fruta: 'Sin fruta',
                 rol: 'Espadachin',
@@ -36,7 +36,7 @@ export const data = {
                 descripcion2: 'Nacido en el East Blue, Zoro es hijo de Tera y Roronoa Arashi, nieto de Shimotsuki Furiko y Roronoa Pinzoro, y sobrino nieto de Shimotsuki Ushimaru, lo que le convierte en descendiente matrilineal tanto de la familia Shimotsuki del País de Wano como del legendario samurái Shimotsuki Ryuma. Fue el primer miembro en unirse a la tripulación, y es considerado parte del Trío Monstruoso (怪物三人組 Kaibutsu San-ningumi) junto a Luffy y Sanji. Su sueño es convertirse en el mejor espadachín del mundo. Zoro junto a su capitán, también es considerado uno de los Once Supernovas que forman parte de «la peor generación».Obtuvo su primera recompensa de $60.000.000 tras el arco de Arabasta. Más tarde aumentó a Belly120.000.000 tras el incidente de Enies Lobby, y de nuevo a Belly320.000.000 tras el arco de Dressrosa. Tras el asalto a Onigashima, su recompensa aumentó a $1.111.000.000, siendo la segunda más alta de la tripulación solo superada por la de Luffy.'
             },
             {
-                imagen: "./assets/nami.webp",
+                imagen: "./assets/personajes/nami.webp",
                 nombre: 'Nami',
                 fruta: 'Sin fruta',
                 rol: 'Navegante',
@@ -53,7 +53,7 @@ export const data = {
                 descripcion2: 'Nami es una chica joven, de tamaño normal con una constitución delgada, y que originalmente tenía el pelo corto de color naranja. En el anime ella fue el primer personaje principal en aparecer en el episodio 1 antes que Luffy (aunque en el manga apareció al principio del arco de la ciudad Orange). Muchas personas la consideran muy atractiva y hermosa, comparándola en una ocasión con una diosa. Ella tiene un tatuaje azul (negro en el manga) en su hombro izquierdo que representa una mandarina y un molinillo (un homenaje a Bell-mère y Genzo, respectivamente), en donde ella antes tenía un tatuaje que indicaba que ella era miembro de la banda de Arlong.'
             },
             {
-                imagen: "./assets/usopp.webp",
+                imagen: "./assets/personajes/usopp.webp",
                 nombre: 'Usopp',
                 fruta: 'Sin fruta',
                 rol: 'Francotirador',
@@ -70,7 +70,7 @@ export const data = {
                 descripcion2: 'Durante la mayor parte de la historia, Usopp es un joven de piel blanca pero bronceada y constitución delgada, ojos grandes y redondos, labios gruesos y pelo negro muy rizado de longitud media; aunque el rasgo más llamativo de su apariencia es, sin duda, su larga nariz (que aparentemente es una alusión al personaje de Pinocho, el protagonista de un cuento del mismo nombre). Este llamativo rasgo fue aparentemente heredado de su madre, mientras que en todos los demás rasgos de su rostro es prácticamente idéntico a su padre (esto es notable incluso teniendo en cuenta que el aspecto de su padre ha sufrido muchos cambios con el paso del tiempo; sobre todo en lo referente al cabello, que pasa de ser igual de negro y rizado que el de su hijo a ser rubio y llevar rastas). En lo que se refiere a su cuerpo, Usopp es algo más alto que Luffy y su constitución es, si hacemos comparación, más semejante a la de Sanji y del capitán, que a la de Zoro o mucho menos Franky.'
             },
             {
-                imagen: "./assets/sanji.webp",
+                imagen: "./assets/personajes/sanji.webp",
                 nombre: 'Vismoke Sanji',
                 fruta: 'Sin fruta',
                 rol: 'Cocinero',
@@ -88,7 +88,7 @@ export const data = {
 
             },
             {
-                imagen: "./assets/chopper.webp",
+                imagen: "./assets/personajes/chopper.webp",
                 nombre: 'Tony Tony Chopper',
                 fruta: 'Hito-Hito no mi',
                 rol: 'Medico',
@@ -105,7 +105,7 @@ export const data = {
                 descripcion2: 'Es un Reno de nariz azul que comió la fruta Hito Hito, adquiriendo forma e inteligencia humana. La mayor parte del tiempo, Chopper mantiene un tamaño pequeño, con forma de reno-humanoide (brain point); las habilidades de su fruta del diablo le permiten cambiar de apariencia dependiendo de la situación. El cuerno izquierdo de Chopper tiene una placa metálica alrededor porque se lo rompió en una pelea cuando era más joven, y Hiriluk se lo trató. Chopper tiene un rasgo destacable que ningún otro reno tiene: su nariz azul.Varios personajes en One Piece han pensado al principio que Chopper es un mapache (del japonés "tanuki"), debido al aspecto que tiene cuando se halla en su forma "Brain Point". En realidad se trata de un juego de palabras: el término japonés "tonakai", que significa reno, es de donde viene el "Tony" del nombre completo de Chopper. A diferencia de su "Brain Point", cuando Chopper está en su "Heavy Point", es confundido con un gorila o un yeti.'
             },
             {
-                imagen: "./assets/robin.webp",
+                imagen: "./assets/personajes/robin.webp",
                 nombre: 'Nico Robin',
                 fruta: 'Hana-Hana no mi',
                 rol: 'Arqueologa',
@@ -121,7 +121,7 @@ export const data = {
                 descripcion2: 'Es introducida como una de los antagonistas secundarios más destacados de la saga de Arabasta siendo la vicepresidenta de Baroque Works y la mano derecha de Crocodile. Sin embargo, luego de ser salvada por Monkey D. Luffy de morir a manos de Crocodile y la posterior derrota del ex Señor de la Guerra del Mar se une a la tripulación. Dejó temporalmente a la banda durante el arco de Water 7, pero se reincorporó al final del arco de Enies Lobby tras la derrota del CP9 a manos de los Piratas de Sombrero de Paja.Su sueño es conocer la verdadera historia investigando en los poneglyphs. Actualmente ofrecen una recompensa de $930.000.000 por su cabeza, siendo la quinta más alta de toda su tripulación.'
             },
             {
-                imagen: "./assets/franky.webp",
+                imagen: "./assets/personajes/franky.webp",
                 nombre: 'Franky',
                 fruta: 'Sin fruta',
                 rol: 'Carpintero',
@@ -138,7 +138,7 @@ export const data = {
                 descripcion2: "Nacido como Cutty Flam (カティ・フラム Kati Furamu) y originario del South Blue, Franky fue un miembro de los Tom's Workers, hasta que un incidente que dañó su cuerpo le requirió convertirse en un cyborg para curarse. Posteriormente se convertiría en el líder de la familia Franky, un grupo de cazarrecompensas y desmanteladores de barcos, adoptando su nombre actual para ocultar su identida.Franky y sus seguidores eran originalmente enemigos de los Sombrero de Paja al principio del arco de Water 7, hasta que las circunstancias les obligaron a convertirse en aliados al final del mismo arco y del arco de Enies Lobby. El sueño de Franky es crear un barco y circunnavegar el mundo con él, y construyó el Thousand Sunny y se unió a los Piratas de Sombrero de Paja para cumplir su sueño."
             },
             {
-                imagen: "./assets/brook.webp",
+                imagen: "./assets/personajes/brook.webp",
                 nombre: 'Brook',
                 fruta: 'Yomi-Yomi no mi',
                 rol: 'Musico',
@@ -155,7 +155,7 @@ export const data = {
                 descripcion2: 'Brook consumió la fruta Yomi Yomi, que le permitió volver a la vida después de la muerte una vez. Brook aprendió con el tiempo a aprovechar más profundamente los poderes de su fruta del Diablo, dándole un control significativo sobre su propia alma y las almas de los demás.Originario del West Blue, Brook ejerció de guardia real de un reino, y posteriormente se haría miembro de los Piratas Rumbar. Murió y resucitó gracias al poder de su fruta. Sin embargo, debido al tiempo que tardó su alma en encontrar su cuerpo, quedó reducido a un esqueleto, conservando intacto únicamente su afro. Brook vagó solo por el Florian Triangle durante cincuenta años, conociendo finalmente a Luffy y sirviendo como aliado de los Sombrero de Paja durante el arco de Thriller Bark antes de unirse oficialmente a la tripulación. Su sueño es reunirse con su viejo amigo Laboon en la Reverse Mountain, donde vive con Crocus.'
             },
             {
-                imagen: "./assets/jinbei.webp",
+                imagen: "./assets/personajes/jinbei.webp",
                 nombre: 'Jinbe',
                 fruta: 'Sin fruta',
                 rol: 'Timonel',
@@ -175,7 +175,7 @@ export const data = {
 
         otros: [
             {
-                imagen: "./assets/ace.webp",
+                imagen: "./assets/personajes/ace.webp",
                 nombre: "Portgas D. Ace",
                 fruta: 'Mera Mera no mi',
                 rol: "Comandante de la 2º división de los Piratas de Barbablanca",
@@ -192,7 +192,7 @@ export const data = {
                 descripcion2: 'Los eventos que acontecieron durante el arco de Impel Down y de Marineford giran en torno al rescate organizado por su hermano Luffy y su capitán Barbablanca (quien para Ace, era más bien un verdadero padre) para salvarlo de ser ejecutado por el Gobierno Mundial. Esto desencadenó en una encarnizada guerra en la que Barbablanca y sus aliados se enfrentaron a la Marina y los Siete Señores de la Guerra del Mar, que cambió el curso de la historia. Ace fue liberado en el tramo final de la guerra, pero sacrificó su vida para proteger a Luffy del almirante de la Marina Akainu. La muerte de Ace finalmente resultó ser el catalizador que llevó a Luffy a entrenar durante dos años para volverse lo suficientemente fuerte como para proteger a sus amigos, siendo uno de los grandes puntos de inflexión de la primera mitad de la obra.'
             },
             {
-                imagen: "./assets/sabo.webp",
+                imagen: "./assets/personajes/sabo.webp",
                 nombre: "Sabo",
                 fruta: "Mera Mera no mi",
                 rol: "Jefe de personal del Ejército Revolucionario",
@@ -209,7 +209,7 @@ export const data = {
                 descripcion2: 'Durante el Arco del País de Wano, Sabo fue testigo de la existencia de Imu y del asesinato de Nefertari Cobra por éste y los cinco ancianos, y posteriormente incriminado por dicho asesinato. Su nueva reputación inspiró una nueva ola de revueltas contra el Gobierno Mundial en todo el mundo.'
             },
             {
-                imagen: "./assets/goldroger.webp",
+                imagen: "./assets/personajes/goldroger.webp",
                 nombre: "Gol D. Roger",
                 fruta: "Sin Fruta",
                 rol: "Capitan de los Piratas de Roger",
@@ -226,7 +226,7 @@ export const data = {
                 descripcion2: 'También fue el amante de Portgas D. Rouge y el padre biológico de Portgas D. Ace.'
             },
             {
-                imagen: "./assets/shirohige.webp",
+                imagen: "./assets/personajes/shirohige.webp",
                 nombre: "Edward Negwate",
                 fruta: "Gura Gura no mi",
                 rol: "Capitan de los Piratas de Shirohige",
@@ -243,7 +243,7 @@ export const data = {
                 descripcion2: 'En el pasado, antes de formar su propia tripulación, fue miembro de los legendarios Piratas de Rocks y más tarde en la vida se convirtió en uno de los Cuatro Emperadores que gobiernan el Nuevo Mundo, hasta su muerte en la Batalla de Marineford hace dos años.'
             },
             {
-                imagen: "./assets/garp.webp",
+                imagen: "./assets/personajes/garp.webp",
                 nombre: "Monkey D. Garp",
                 fruta: "Sin Fruta",
                 rol: "Vicealmirante de la Marina",
@@ -260,7 +260,7 @@ export const data = {
                 descripcion2: 'Garp es una figura importante, junto con Kong, Sengoku, Shiki , Silvers Rayleigh , Tsuru y Barbablanca, de los tiempos en el que Gol D. Roger , el "Rey Pirata", estaba vivo. Sus hazañas como soldado de la Marina le valieron una inmensa notoriedad y prestigio, y sus acciones durante el Incidente de God Valley en particular le otorgaron el título de "Héroe de la Marina". Cabe destacar que a Garp se le ofreció el rango de Almirante varias veces a lo largo de su carrera, pero rechazó la oferta de ascenso cada vez debido a su profundo odio y desprecio por los Nobles Mundiales . También es el ex mentor de Kuzan.Garp fue presentado por primera vez durante el Diario de Kobymeppo, donde se hizo cargo del entrenamiento de Koby y Helmeppo. Después de la guerra y la muerte de Ace, se convirtió en Instructor de la Marina para entrenar a nuevos reclutas, aunque aún conserva el rango de Vicealmirante,  no es conocido por el público y parece que se ha retirado.  Durante su misión para rescatar a Koby de los Piratas de Barbanegra, Garp resultó gravemente herido y se vio obligado a quedarse atrás, y como resultado, ha sido declarado "desaparecido en acción".'
             },
             {
-                imagen: "./assets/dragon.webp",
+                imagen: "./assets/personajes/dragon.webp",
                 nombre: "Monkey D. Dragon",
                 fruta: "Desconocido",
                 rol: "Comandante Supremo del Ejercito Revolucionario",
@@ -277,7 +277,7 @@ export const data = {
                 descripcion2: ''
             },
             {
-                imagen: "./assets/kurohige.webp",
+                imagen: "./assets/personajes/kurohige.webp",
                 nombre: "Marshall D. Teach",
                 fruta: "Yami Yami no mi, Gura Gura No mi",
                 rol: "Capitan de los Piratas de Kurohige",
@@ -294,7 +294,7 @@ export const data = {
                 descripcion2: 'Inicialmente un aprendiz pirata, Teach formó parte de la segunda división de los Piratas de Barbablanca bajo mando directo de Portgas D. Ace, a quien entregó a la Marina tras el Duelo en la Isla Banaro para posicionarse como uno de los Siete Guerreros del Mar. Fue también el artífice de la masiva liberación de presos en el último nivel de Impel Down. Sus acciones le llevaron a ser visto como uno de los piratas conocidos como "La Peor Generación".Actuó como antagonista menor en el arco de Jaya, en el de Impel Down, y como uno de los antagonistas principales en el arco de Marineford al ser él su principal desencadenante. Los distintos sucesos acaecidos le sitúan como uno de los antagonistas principales de la serie.'
             },
             {
-                imagen: "./assets/shanks.webp",
+                imagen: "./assets/personajes/shanks.webp",
                 nombre: "Shanks",
                 fruta: "Sin Fruta",
                 rol: "Capitan de los piratas del Pelirojo",
@@ -311,7 +311,7 @@ export const data = {
                 descripcion2: 'Es el hombre que inspiró a Luffy a seguir su sueño de ser el Rey de los Piratas, y el que encontró la fruta Gomu Gomu que Luffy comió accidentalmente. Es también el padre adoptivo de Uta.'
             },
             {
-                imagen: "./assets/kaido.webp",
+                imagen: "./assets/personajes/kaido.webp",
                 nombre: "Kaido",
                 fruta: "Uo Uo no Mi, Moderu: Seiryū",
                 rol: "Capitan de los Piratas Bestias",
@@ -328,7 +328,7 @@ export const data = {
                 descripcion2: 'La primera referencia que se tiene de él vino de Monkey D. Garp en Water 7 y fue directamente mencionado por Gecko Moria poco después de tener en su poder la sombra de Monkey D. Luffy. Su posición como uno de los Cuatro Emperadores fue revelada después de que los Piratas de Sombrero de Paja derrotasen a Moria. Debido a su papel y acciones es el antagonista principal del arco del País de Wano así como de la saga del País de Wano y junto a Charlotte Linlin el antagonista más notable y destacado de la segunda mitad de la historia.'
             },
             {
-                imagen: "./assets/bigmom.webp",
+                imagen: "./assets/personajes/bigmom.webp",
                 nombre: "Charlotte Linlin",
                 fruta: "Soru Soru no mi",
                 rol: "Capitana; Reina de Totto Land",
@@ -341,26 +341,9 @@ export const data = {
                 origen: "Grand Line",
                 aparicion: "Capitulo 651; Episodio 571",
                 tipoFruta: "Paramecia",
-                descripcion: 'Charlotte Linlin (シャー ロット リンリン Shārotto Rinrin), más conocida como Big Mom (マム ビッグ Biggu Mamu, lit. «Gran Mamá»), es la capitana de los Piratas de Big Mom, matriarca de la familia Charlotte, reina[16] de Totto Land y fue uno de los Cuatro Emperadores que gobiernan los mares del Nuevo Mundo, hasta que perdió dicha posición tras su derrota a manos de Trafalgar D. Water Law y Eustass Kid. Al igual que varios piratas del pasado de renombre, fue miembro de los Piratas de Rocks.',
+                descripcion: 'Charlotte Linlin (シャー ロット リンリン Shārotto Rinrin), más conocida como Big Mom (マム ビッグ Biggu Mamu, lit. «Gran Mamá»), es la capitana de los Piratas de Big Mom, matriarca de la familia Charlotte, reina de Totto Land y fue uno de los Cuatro Emperadores que gobiernan los mares del Nuevo Mundo, hasta que perdió dicha posición tras su derrota a manos de Trafalgar D. Water Law y Eustass Kid. Al igual que varios piratas del pasado de renombre, fue miembro de los Piratas de Rocks.',
                 descripcion2: 'Actúa como antagonista principal en el arco de Whole Cake Island, así como antagonista secundaria del arco del País de Wano y junto a Kaidou es una de las antagonistas más notables y destacadas de la segunda mitad de la historia. Big Mom es una enorme y obesa mujer rolliza con el rostro grotesco y arrugado. Debido a su gordura, su mandíbula y su barbilla apenas sobresalen, concentrándose en una notable papada. Generalmente suele sonreír, mostrando su amplia boca, de labios gruesos pintados de rojo, dientes grandes y redondos y una larga lengua que a menudo saca. Su pelo le llega hasta la mitad de la espalda, es de color rosa claro y especialmente rizado. Sus ojos son de color naranja y están maquillados con sombra de ojos lila y raya rosa. Su nariz tiene forma de pico y sus mejillas son redondas y salientes. En su brazo izquierdo porta un tatuaje en forma de corazón rojo rodeado por finas líneas negras que enmarcan sus extremos.'
-            },
-            {
-                imagen: "",
-                nombre: "",
-                fruta: "",
-                rol: "",
-                edad: "",
-                recompensa: "",
-                estado: "",
-                altura: "",
-                epiteto: "",
-                nacimiento: "",
-                origen: "",
-                aparicion: "",
-                tipoFruta: "",
-                descripcion: "",
-                descripcion2: ""
-            },
+            }
 
         ]
     }

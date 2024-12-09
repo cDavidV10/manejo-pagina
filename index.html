@@ -12,8 +12,10 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="assets/one-piece-icon.webp" />
     <script defer type="module" src="js/main.js"></script>
     <script defer type="module" src="js/personajes.js"></script>
+    <script defer type="module" src="js/sagas.js"></script>
   </head>
   <body>
     <header class="header">
@@ -33,7 +35,10 @@
             >
           </li>
           <li>
-            <a class="enlace enlace-interno" moveTo="arcos" href="#">Arcos</a>
+            <a class="enlace enlace-interno" moveTo="sagas" href="#">Sagas</a>
+          </li>
+          <li>
+            <a class="enlace" href="arcos.html">Arcos</a>
           </li>
         </ul>
         <div class="toggle__btn">
@@ -41,9 +46,22 @@
         </div>
       </nav>
       <div class="drop__menu">
-        <li><a class="enlace" moveTo="hero-section" href="#">Principal</a></li>
-        <li><a class="enlace" moveTo="personajes" href="#">Personajes</a></li>
-        <li><a class="enlace" moveTo="arcos" href="#">Arcos</a></li>
+        <li>
+          <a class="enlace enlace-interno" moveTo="hero-section" href="#"
+            >Principal</a
+          >
+        </li>
+        <li>
+          <a class="enlace enlace-interno" moveTo="personajes" href="#"
+            >Personajes</a
+          >
+        </li>
+        <li>
+          <a class="enlace enlace-interno" moveTo="sagas" href="#">Sagas</a>
+        </li>
+        <li>
+          <a class="enlace" href="arcos.html">Arcos</a>
+        </li>
       </div>
     </header>
     <section class="hero__section" id="hero-section">
@@ -53,22 +71,36 @@
       <section class="personajes__container" id="personajes">
         <article class="more__info">
           <h2>Personajes</h2>
-          <button data-id="1" class="btn btn-more btn-more__info">
+          <button
+            data-id="1"
+            class="btn btn-more btn-more__info"
+            id="personajes-btn"
+          >
             Mas personajes
           </button>
         </article>
-        <article class="contenedor personajes"></article>
+        <section class="contenedor personajes"></section>
       </section>
-      <section class="arcos__container" id="arcos">
+      <section class="arcos__container" id="sagas">
         <article class="more__info">
-          <h2>Arcos</h2>
-          <button data-id="1" class="btn btn-more btn-more__arcos">
-            Ver todos los arcos
+          <h2>Sagas</h2>
+          <button data-id="2" class="btn btn-more btn-more__info">
+            Ver arcos
           </button>
         </article>
+        <section class="contenedor contenedor-arcos arcos"></section>
       </section>
+      <dialog>
+        <div class="modal">
+          <section class="modal-content-container">
+            <section class="modal-content"></section>
+            <section class="btn-container">
+              <button class="btn modal-btn" id="closeModal">cerrar</button>
+            </section>
+          </section>
+        </div>
+      </dialog>
     </main>
-
     <template id="template">
       <article class="card">
         <div class="img__container">
@@ -85,17 +117,18 @@
         <button class="btn card__btn">Más Información</button>
       </article>
     </template>
-    <template id="template-arcos">
-      <article class="card">
+    <template id="template-saga">
+      <article class="card card-arcos">
         <div class="img__container">
           <img class="card__img" />
         </div>
         <div class="info__container">
           <h3 class="saga"></h3>
-          <p class="inicio"></p>
-          <p class="final"></p>
+          <p class="manga"></p>
+          <p class="anime"></p>
+          <p class="numArcos"></p>
         </div>
-        <button class="btn card__btn">Más Información</button>
+        <button class="btn card__btn" id="btnModal">Más Información</button>
       </article>
     </template>
   </body>

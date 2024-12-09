@@ -16,8 +16,19 @@
   animation-duration: 500ms;
 }
 
+:root {
+  --azul: #4169e1;
+  --naranja: #ffa500;
+  --morado: #6a0dad;
+  --blanco: #fff;
+}
+
 body {
   min-height: 97dvh;
+
+  &.modal-open {
+    overflow: hidden;
+  }
 }
 
 main,
@@ -41,7 +52,7 @@ header {
   background-color: transparent;
   transition: background-color 0.3s ease, color 0.3s ease;
   color: #fff;
-  z-index: 10;
+  z-index: 100;
 }
 
 .header-personajes {
@@ -50,6 +61,7 @@ header {
 }
 
 .scrolled,
+.scrolled-visible,
 .header-personajes {
   background-color: #fff;
   color: #000;
@@ -180,6 +192,41 @@ li {
   }
 }
 
+.more__info {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 8 16px;
+  width: 100%;
+
+  .btn-more {
+    width: 200px;
+  }
+}
+
+.more-personaje {
+  margin: 15px auto;
+  max-width: 1200px;
+}
+
+.atributo {
+  font-weight: bold;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 2rem;
+  cursor: pointer;
+  border-radius: 15px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  background-color: transparent;
+}
+
 .personajes__container,
 .arcos__container {
   max-width: 1200px;
@@ -189,7 +236,8 @@ li {
   padding: 16px;
 }
 
-.contenedor {
+.contenedor,
+.card-arcos {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 8px;
@@ -198,13 +246,26 @@ li {
   margin-top: 2dvh;
 }
 
-.btn {
-  width: 100%;
-  height: 2rem;
-  cursor: pointer;
-  border-radius: 10px;
-  font-size: 1rem;
-  font-weight: bold;
+.card-arcos {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+  .img__container {
+    .card__img {
+      width: 100%;
+      aspect-ratio: 739 / 694;
+    }
+  }
+}
+
+.arco-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.25rem;
+}
+
+.numero {
+  max-width: 300px;
 }
 
 .card,
@@ -221,6 +282,11 @@ li {
 .card {
   flex-direction: column;
   justify-content: space-between;
+  transition: transform 300ms ease-in-out;
+
+  &:hover {
+    transform: scale(1.02);
+  }
 
   .card__img {
     width: 100%;
@@ -235,10 +301,26 @@ li {
     width: 80%;
     margin: 0 auto 16px;
     transition: hover 200ms ease-in;
+    background-color: var(--blanco);
+    color: #000;
+    transition: hover 300ms;
+    border: solid 1px;
 
     &:hover {
-      scale: 1.1;
+      color: #8b0000;
     }
+  }
+}
+
+.btn-more {
+  border: solid 2px;
+  background: var(--blanco);
+  color: #000;
+  transition: color 300ms ease-in, border 300ms ease-in;
+
+  &:hover {
+    color: var(--morado);
+    border: solid 2px;
   }
 }
 
@@ -275,25 +357,82 @@ li {
   }
 }
 
-.more__info {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-  padding: 8 16px;
+.modal {
+  position: fixed;
   width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(255 255 255 / 0.5);
+  overflow: hidden;
 
-  .btn-more {
-    width: 200px;
+  .modal-content-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 95%;
+    max-width: 500px;
+    max-height: 500px;
+    overflow: auto;
+    scrollbar-width: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px 5px rgb(0 0 0 / 0.5);
+
+    &::--webkit-scrollbar {
+      display: none;
+    }
+
+    .modal-content {
+      display: grid;
+      grid-template-columns: 40% 1fr;
+      gap: 0.5rem;
+
+      .card__img {
+        width: 100%;
+        aspect-ratio: 5 / 4;
+      }
+
+      .info__container {
+        padding: 0.25rem;
+
+        p {
+          border-bottom: solid 1px #555;
+        }
+      }
+
+      .descripcion,
+      .card-title {
+        padding: 0.5rem;
+      }
+    }
+
+    .btn-container {
+      position: sticky;
+      bottom: 0;
+      left: 0;
+      padding: 0.5rem;
+      width: 100%;
+      background: #fff;
+      border-top: solid 1px #999;
+
+      .modal-btn {
+        width: 20%;
+        color: #4169e1;
+        transition: color 300ms ease-in-out, background-color 300ms ease-in-out;
+
+        &:hover {
+          background-color: var(--azul);
+          color: var(--blanco);
+        }
+      }
+    }
   }
-}
-
-.more-personaje {
-  margin: 15px auto;
-  max-width: 1200px;
-}
-
-.atributo {
-  font-weight: bold;
 }
 
 @media (width < 500px) {
@@ -329,6 +468,20 @@ li {
   .more__info {
     .btn-more__info {
       width: 150px;
+    }
+  }
+
+  .modal {
+    .modal-content-container {
+      .modal-content {
+        grid-template-columns: auto;
+      }
+
+      .btn-container {
+        .modal-btn {
+          border: solid 1px;
+        }
+      }
     }
   }
 }
