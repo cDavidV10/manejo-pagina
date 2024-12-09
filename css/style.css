@@ -359,6 +359,13 @@ header {
   }
 }
 
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
 .modal {
   position: fixed;
   width: 100%;
@@ -554,6 +561,11 @@ header {
       }
     }
   }
+
+  .text {
+    font-size: 1rem;
+  }
+
   .footer {
     .social-icon {
       .icon {
