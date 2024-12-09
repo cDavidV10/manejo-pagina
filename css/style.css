@@ -328,6 +328,7 @@ header {
 .card-personaje {
   display: grid;
   margin: 0 auto;
+  margin-bottom: 1rem;
   grid-template-columns: 35% 1fr;
   max-width: 1200px;
 
